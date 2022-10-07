@@ -20,7 +20,7 @@ body {
   padding-bottom: 60px;
 }
 .main-section h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 }
 .main-section h2 {
@@ -54,8 +54,24 @@ body {
 .titles {
   font-weight: bold;
   font-size: 50px;
+  margin-bottom: 40px;
+  padding-top: 30px;
 }
 .section-skills {
   background-color: var(--secondary-color-background);
   text-align: center;
+}
+
+.skills-images {
+  width: 50px;
+  height: 50px;
+}
+.text-skills {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section-grid-skills {
+  padding-bottom: 40px;
 }
