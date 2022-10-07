@@ -1,5 +1,6 @@
 :root {
   --main-color: #62013c;
+  --secondary-color-background: #62013b17;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   color: black;
 }
 
+/*First section*/
 .main-section {
   padding-top: 180px;
   text-align: center;
@@ -36,7 +38,7 @@ body {
 
 .contact-button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-weight: bold;
+  font-weight: bold;
 }
 .contact-button a {
   color: white;
@@ -45,4 +47,15 @@ body {
 
 .contact-button a:hover {
   color: white;
+}
+
+/*Section Skills*/
+
+.titles {
+  font-weight: bold;
+  font-size: 50px;
+}
+.section-skills {
+  background-color: var(--secondary-color-background);
+  text-align: center;
 }
