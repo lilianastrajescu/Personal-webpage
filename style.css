@@ -6,7 +6,7 @@
 body {
   font-family: "Inter", sans-serif;
 }
-.navigation-bar {
+.navigation-bar-sections {
   display: flex;
   justify-content: flex-end;
   font-weight: bold;
