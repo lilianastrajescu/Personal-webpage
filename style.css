@@ -51,6 +51,21 @@ body {
 
 /*Section Skills*/
 
+.parent{
+  height: 150px;
+}
+
+.child {
+  border-top: 100px solid #ffffff;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  bottom: -40px;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .titles {
   font-weight: bold;
   font-size: 50px;
@@ -80,3 +95,4 @@ body {
     width: 400px;
     height: 400px;
 }
+
