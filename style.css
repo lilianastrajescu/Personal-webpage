@@ -91,11 +91,18 @@ body {
   padding-bottom: 40px;
 }
 
+
+/* Projects section*/
 .images-projects{
     width: 400px;
     height: 400px;
 }
-
+.section-text{
+color: white;
+background-color: var(--main-color);
+width: 50%;
+padding: 30px ;
+}
 
 .section-text{
   background-color: var(--main-color);
@@ -108,4 +115,19 @@ body {
 }
 .section-text p{
   font-size: 16px;
+}
+
+.sections-image {
+  width: 20%;
+  position: absolute;
+}
+
+.sections-image::before {
+  height: 40px;
+  line-height: 0.78;
+  line-height: 1;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
 }
