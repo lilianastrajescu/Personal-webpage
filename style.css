@@ -229,13 +229,10 @@ font-weight: 500;
 }
 
 .form-box{
-  margin: 20px;
-  color: black;
-    border : 0px solid #000000;
-
-    border-bottom-width : 1px;
-
-    background-color : transparent;
+    border: none;
+    border-bottom: black solid 1px !important;
+    outline: none;
+    width: 100%;
 }
 
 
