@@ -206,7 +206,37 @@ margin: 0 auto;
   background-color: var(--secondary-color-background);
 }
 
+/*Contact*/
+.images-contact{
+ width: 23px;
+ height: 20px;
+ margin-right: 20px;
+}
 
+.mail-section{
+text-decoration: none;
+color: black;
+font-weight: 500;
+}
+.mail-section:hover{
+text-decoration: underline;
+color: black;
+}
+.place-section{
+ text-decoration: none;
+color: black;
+font-weight: 500;
+}
+
+.form-box{
+  margin: 20px;
+  color: black;
+    border : 0px solid #000000;
+
+    border-bottom-width : 1px;
+
+    background-color : transparent;
+}
 
 
 @media (max-width: 768px) {
