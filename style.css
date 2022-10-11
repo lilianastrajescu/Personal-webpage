@@ -52,7 +52,7 @@ body {
 /*Section Skills*/
 
 .parent {
-  height: 150px;
+  height: 100px;
 }
 
 .child {
@@ -93,7 +93,7 @@ body {
 
 /* Projects section*/
 .container-projects {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .images-projects {
   width: 400px;
@@ -195,6 +195,46 @@ body {
 .text-button{
   margin-left: 15px;
 }
+
+/*About*/
+.text-about{
+  width: 80%;
+margin: 0 auto;
+  padding-bottom: 50px;
+}
+.container-about{
+  background-color: var(--secondary-color-background);
+}
+
+/*Contact*/
+.images-contact{
+ width: 23px;
+ height: 20px;
+ margin-right: 20px;
+}
+
+.mail-section{
+text-decoration: none;
+color: black;
+font-weight: 500;
+}
+.mail-section:hover{
+text-decoration: underline;
+color: black;
+}
+.place-section{
+ text-decoration: none;
+color: black;
+font-weight: 500;
+}
+
+.form-box{
+    border: none;
+    border-bottom: black solid 1px !important;
+    outline: none;
+    width: 100%;
+}
+
 
 @media (max-width: 768px) {
   .sections-image {
