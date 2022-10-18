@@ -14,15 +14,13 @@ body {
   color: black;
 }
 
-.section-selected{
-color: black !important;
+.section-selected {
+  color: black !important;
 }
-.section-selected:hover{
-color: var(--main-color) !important;
-text-decoration: underline !important;
+.section-selected:hover {
+  color: var(--main-color) !important;
+  text-decoration: underline !important;
 }
-
-
 
 /*First section*/
 .main-section {
@@ -202,6 +200,13 @@ text-decoration: underline !important;
   font-weight: bold;
 }
 
+.right-button{
+  float: right;
+  margin:0;
+  display: flex;
+  justify-content: center;
+}
+
 .text-button {
   margin-left: 15px;
 }
@@ -245,22 +250,22 @@ text-decoration: underline !important;
   width: 100%;
 }
 
-footer{
+footer {
   background-color: var(--secondary-color-background);
 }
 
-.footer-links{
+.footer-links {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.footer-links:hover{
-   text-decoration: underline;
+.footer-links:hover {
+  text-decoration: underline;
   color: black;
 }
-.images-footer{
-    width: 20px;
+.images-footer {
+  width: 20px;
   height: 20px;
   margin-right: 20px;
 }
@@ -269,4 +274,50 @@ footer{
   .sections-image {
     margin-top: 0;
   }
+}
+
+@media (max-width: 576px) {
+  .main-section h1 {
+    font-size: 30px;
+  }
+  .main-section h2 {
+    font-size: 18px;
+  }
+  .titles {
+    font-size: 40px;
+  }
+  .skills-images {
+    width: 30px;
+    height: 30px;
+  }
+  .container-projects{
+    padding-top: 10px;
+  }
+  .images-projects{
+padding-top: 30px;
+  }
+  .section-text {
+    padding-top: 40px;
+
+}
+.section-text h2{
+  font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.section-text p{
+  font-size: 16px;
+    text-align: center;
+}
+.button-code{
+margin: 0 auto;
+margin-top: 50px;
+
+}
+.right-button{
+  float: none;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+}
 }
