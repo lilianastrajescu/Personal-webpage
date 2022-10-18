@@ -5,6 +5,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  margin: 0 auto;
 }
 .navigation-bar-sections {
   display: flex;
@@ -12,6 +13,16 @@ body {
   font-weight: bold;
   color: black;
 }
+
+.section-selected{
+color: black !important;
+}
+.section-selected:hover{
+color: var(--main-color) !important;
+text-decoration: underline !important;
+}
+
+
 
 /*First section*/
 .main-section {
@@ -57,13 +68,12 @@ body {
 
 .child {
   border-top: 100px solid #ffffff;
-  border-left: 50vw solid transparent;
-  border-right: 50vw solid transparent;
+  border-left: 49vw solid transparent;
+  border-right: 49vw solid transparent;
   bottom: -40px;
-  display: block;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .titles {
@@ -184,57 +194,76 @@ body {
   border: none;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   text-decoration: none;
 }
-.button-code a:hover{
+.button-code a:hover {
   color: white;
   font-weight: bold;
 }
 
-.text-button{
+.text-button {
   margin-left: 15px;
 }
 
 /*About*/
-.text-about{
+.text-about {
   width: 80%;
-margin: 0 auto;
+  margin: 0 auto;
   padding-bottom: 50px;
 }
-.container-about{
+.container-about {
   background-color: var(--secondary-color-background);
 }
 
 /*Contact*/
-.images-contact{
- width: 23px;
- height: 20px;
- margin-right: 20px;
+.images-contact {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
 }
 
-.mail-section{
-text-decoration: none;
-color: black;
-font-weight: 500;
+.mail-section {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
-.mail-section:hover{
-text-decoration: underline;
-color: black;
+.mail-section:hover {
+  text-decoration: underline;
+  color: black;
 }
-.place-section{
- text-decoration: none;
-color: black;
-font-weight: 500;
-}
-
-.form-box{
-    border: none;
-    border-bottom: black solid 1px !important;
-    outline: none;
-    width: 100%;
+.place-section {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
+.form-box {
+  border: none;
+  border-bottom: black solid 1px !important;
+  outline: none;
+  width: 100%;
+}
+
+footer{
+  background-color: var(--secondary-color-background);
+}
+
+.footer-links{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.footer-links:hover{
+   text-decoration: underline;
+  color: black;
+}
+.images-footer{
+    width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
 
 @media (max-width: 768px) {
   .sections-image {
