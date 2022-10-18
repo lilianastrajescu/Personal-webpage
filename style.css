@@ -5,6 +5,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  margin: 0 auto;
 }
 .navigation-bar-sections {
   display: flex;
@@ -57,13 +58,12 @@ body {
 
 .child {
   border-top: 100px solid #ffffff;
-  border-left: 50vw solid transparent;
-  border-right: 50vw solid transparent;
+  border-left: 49vw solid transparent;
+  border-right: 49vw solid transparent;
   bottom: -40px;
-  display: block;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .titles {
@@ -235,7 +235,25 @@ body {
   width: 100%;
 }
 
+footer{
+  background-color: var(--secondary-color-background);
+}
 
+.footer-links{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.footer-links:hover{
+   text-decoration: underline;
+  color: black;
+}
+.images-footer{
+    width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
 
 @media (max-width: 768px) {
   .sections-image {
