@@ -200,11 +200,8 @@ body {
   font-weight: bold;
 }
 
-.right-button{
+.right-button {
   float: right;
-  margin:0;
-  display: flex;
-  justify-content: center;
 }
 
 .text-button {
@@ -222,6 +219,10 @@ body {
 }
 
 /*Contact*/
+.content-contact-section{
+  display: flex;
+  justify-content: left;
+}
 .images-contact {
   width: 28px;
   height: 28px;
@@ -284,40 +285,49 @@ footer {
     font-size: 18px;
   }
   .titles {
-    font-size: 40px;
+    font-size: 35px;
   }
   .skills-images {
     width: 30px;
     height: 30px;
   }
-  .container-projects{
+  .container-projects {
     padding-top: 10px;
   }
-  .images-projects{
-padding-top: 30px;
+  .sections-images-projects {
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .section-text {
-    padding-top: 40px;
-
-}
-.section-text h2{
-  font-size: 22px;
+    padding-top: 10px;
+  }
+  .section-text h2 {
+    font-size: 22px;
     text-align: center;
     padding-bottom: 10px;
-}
-.section-text p{
-  font-size: 16px;
+  }
+  .section-text p {
+    font-size: 16px;
     text-align: center;
-}
-.button-code{
-margin: 0 auto;
-margin-top: 50px;
-
-}
-.right-button{
-  float: none;
-  margin-left: 0;
-  display: flex;
-  justify-content: center;
-}
+  }
+  .button-code {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .right-button {
+    float: none;
+  }
+  .content-contact-section{
+    justify-content: center !important;
+    margin-bottom: 10px;
+  }
+ .images-contact{
+  margin-right: 5px;
+ }
+ .form-section{
+  padding-top: 20px;
+ }
+ .pt-5{
+  padding-top: 10px !important;
+ }
 }
