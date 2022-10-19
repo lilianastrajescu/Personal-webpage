@@ -49,7 +49,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: bold;
 }
-.contact-button a{
+.contact-button a {
   color: white;
   text-decoration: none;
 }
@@ -219,7 +219,7 @@ body {
 }
 
 /*Contact*/
-.content-contact-section{
+.content-contact-section {
   display: flex;
   justify-content: left;
 }
@@ -269,7 +269,6 @@ body {
 .submit-button:hover {
   color: white;
 }
-
 
 footer {
   background-color: var(--secondary-color-background);
@@ -337,14 +336,14 @@ footer {
   .right-button {
     float: none;
   }
-  .content-contact-section{
+  .content-contact-section {
     justify-content: center !important;
     margin-bottom: 10px;
   }
- .images-contact{
-  margin-right: 5px;
- }
- .form-section{
-  padding-top: 20px;
- }
+  .images-contact {
+    margin-right: 5px;
+  }
+  .form-section {
+    padding-top: 20px;
+  }
 }
