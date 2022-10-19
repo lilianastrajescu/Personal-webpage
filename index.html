@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse navigation-bar-sections" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link section-selected"  aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link section-selected" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link section-selected" href="#skills-section-link">Skills</a>
@@ -131,7 +131,7 @@
         <!--Firs section projects-->
         <div class="container container-projects ">
             <div class="row sections-projects">
-                <div class="col-md-6">
+                <div class="col-md-6 sections-images-projects">
                     <img src="/images/projects/weather-app.png" class="img-fluid images-projects sections-image"
                         alt="my firs responsive personal page">
                 </div>
@@ -146,8 +146,6 @@
                         porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum
                         dolore.
                     </p>
-
-
                     <div class="button-code">
                         <a href="https://github.com/lilianastrajescu/weather-app.git" target="_blank">
                             <img src="/images/github-color.png" alt="git-colored" class="icon">
@@ -174,15 +172,14 @@
                         porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum
                         dolore.
                     </p>
-                    <div class="button-code me-0 float-end">
+                    <div class="button-code right-button">
                         <a href="https://github.com/lilianastrajescu/Persola-Page-projects.git" target="_blank">
                             <img src="/images/github-color.png" alt="git-colored" class="icon">
                             <span class="text-button">Code</span>
                         </a>
                     </div>
                 </div>
-
-                <div class="col-md-6">
+                <div class="col-md-6 sections-images-projects">
                     <img src="/images/projects/first-personal-page.png" class="img-fluid images-projects sections-image"
                         alt="my firs responsive personal page">
                 </div>
@@ -193,7 +190,7 @@
         <!--Third section projects-->
         <div class="container container-projects ">
             <div class="row sections-projects">
-                <div class="col-md-6">
+                <div class="col-md-6 sections-images-projects">
                     <img src="/images/projects/ikea.png" class="img-fluid images-projects sections-image"
                         alt="my firs responsive personal page">
                 </div>
@@ -241,8 +238,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="row md-8 ms-5">
-                        <div class="col pb-3 d-flex justify-content-start">
+                    <div class="row info-section">
+                        <div class="col pb-3 content-contact-section">
                             <a href="mailto:liliana.strajescu96@gmail.com" class="mail-section">
                                 <img src="/images/email.png" alt="Email Liliana Strajescu" class="images-contact">
                                 <span class="fw-bolder">
@@ -253,8 +250,8 @@
                         </div>
                     </div>
 
-                    <div class="row md-8 ms-5">
-                        <div class="col d-flex justify-content-start">
+                    <div class="col content-contact-section">
+                        <p>
                             <img src="/images/maps-and-flags.png" alt="Canada" class="images-contact">
                             <span class="fw-bolder">
                                 Location:
@@ -262,19 +259,18 @@
                             <span class="place-section">
                                 Calgary, Canada
                             </span>
-                        </div>
+                        </p>
+
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <form>
-                        <input type="text" name="fname" placeholder="Name" required="" class="form-box">
+                <div class="col-md-6 form-section">
+                    <form id="myForm" method="post" name="myemailform" action="form-to-email.php">
+                        <input type="text" name="name" placeholder="Name" required="" class="form-box">
                         <input type="email" name="email" placeholder="Email" required="" class="form-box pt-4">
                         <textarea type="text" name="message" placeholder="Message" required=""
                             class="form-box pt-4 pb-5"></textarea>
-                        <button class="contact-button mt-4">
-                            <a href="#" type="submit" value="Submit">Submit</a>
-                        </button>
+                        <button class="contact-button mt-4" type="submit" value="Submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -283,25 +279,24 @@
 
     <!--Footer-->
     <footer>
-        <div class="container pb-5 me-0" id="contact-me">
+        <div class="container pb-5 me-0 pt-4" id="contact-me">
             <div class="row">
-                <div class="col-md-4 pt-2 pt-5">
+                <div class="col-md-4  pt-3 links-footer">
                     <a class="footer-links" href="https://www.linkedin.com/in/liliana-strajescu/" target="_blank">
                         <img src="/images/footer/linkedin.png" class="images-footer footer-links"
                             alt="Liliana-Strajescu Linkedin">
                         Linkedin
                     </a>
                 </div>
-                <div class="col-md-4 pt-2 pt-5">
+                <div class="col-md-4 pt-3 links-footer">
                     <a href="mailto:liliana.strajescu96@gmail.com" class="mail-section" target="_blank">
                         <img src="/images/footer/email.png" alt="Email Liliana Strajescu" class="images-footer">
-                    liliana.strajescu96@gmail.com
+                        liliana.strajescu96@gmail.com
                     </a>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 pt-3">
-
+                <div class="col-md-4 pt-3 links-footer">
                     <a class="footer-links" href="https://github.com/lilianastrajescu" target="_blank">
                         <img src="/images/footer/github.png" class="images-footer" alt="Liliana-Strajescu github">
                         Github

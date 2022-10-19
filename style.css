@@ -14,15 +14,13 @@ body {
   color: black;
 }
 
-.section-selected{
-color: black !important;
+.section-selected {
+  color: black !important;
 }
-.section-selected:hover{
-color: var(--main-color) !important;
-text-decoration: underline !important;
+.section-selected:hover {
+  color: var(--main-color) !important;
+  text-decoration: underline !important;
 }
-
-
 
 /*First section*/
 .main-section {
@@ -51,12 +49,12 @@ text-decoration: underline !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: bold;
 }
-.contact-button a {
+.contact-button {
   color: white;
   text-decoration: none;
 }
 
-.contact-button a:hover {
+.contact-button:hover {
   color: white;
 }
 
@@ -202,6 +200,10 @@ text-decoration: underline !important;
   font-weight: bold;
 }
 
+.right-button {
+  float: right;
+}
+
 .text-button {
   margin-left: 15px;
 }
@@ -217,6 +219,10 @@ text-decoration: underline !important;
 }
 
 /*Contact*/
+.content-contact-section{
+  display: flex;
+  justify-content: left;
+}
 .images-contact {
   width: 28px;
   height: 28px;
@@ -245,22 +251,22 @@ text-decoration: underline !important;
   width: 100%;
 }
 
-footer{
+footer {
   background-color: var(--secondary-color-background);
 }
 
-.footer-links{
+.footer-links {
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.footer-links:hover{
-   text-decoration: underline;
+.footer-links:hover {
+  text-decoration: underline;
   color: black;
 }
-.images-footer{
-    width: 20px;
+.images-footer {
+  width: 20px;
   height: 20px;
   margin-right: 20px;
 }
@@ -269,4 +275,56 @@ footer{
   .sections-image {
     margin-top: 0;
   }
+}
+
+@media (max-width: 576px) {
+  .main-section h1 {
+    font-size: 30px;
+  }
+  .main-section h2 {
+    font-size: 18px;
+  }
+  .titles {
+    font-size: 35px;
+  }
+  .skills-images {
+    width: 30px;
+    height: 30px;
+  }
+  .container-projects {
+    padding-top: 10px;
+  }
+  .sections-images-projects {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .section-text {
+    padding-top: 10px;
+  }
+  .section-text h2 {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .section-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .button-code {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .right-button {
+    float: none;
+  }
+  .content-contact-section{
+    justify-content: center !important;
+    margin-bottom: 10px;
+  }
+ .images-contact{
+  margin-right: 5px;
+ }
+ .form-section{
+  padding-top: 20px;
+ }
 }
