@@ -1,5 +1,16 @@
 <?php
-  $name = $_POST['name'];
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'path/to/PHPMailer/src/Exception.php';
+require 'path/to/PHPMailer/src/PHPMailer.php';
+require 'path/to/PHPMailer/src/SMTP.php';
+$mail = new PHPMailer(true);
+
+$mail->Port       = 443;
+    
+/*
+ $name = $_POST['name'];
   $visitor_email = $_POST['email'];
   $message = $_POST['message'];
 
@@ -48,6 +59,5 @@ if(IsInjected($visitor_email))
 {
     echo "Bad email value!";
     exit;
-}
+}*/
 ?>
-

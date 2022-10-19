@@ -265,12 +265,12 @@
                 </div>
 
                 <div class="col-md-6 form-section">
-                    <form id="myForm" method="post" name="myemailform" action="form-to-email.php">
+                    <form id="myForm" method="post" name="myemailform" action="email.php">
                         <input type="text" name="name" placeholder="Name" required="" class="form-box">
                         <input type="email" name="email" placeholder="Email" required="" class="form-box pt-4">
                         <textarea type="text" name="message" placeholder="Message" required=""
                             class="form-box pt-4 pb-5"></textarea>
-                        <button class="contact-button mt-4" type="submit" value="Submit">Submit</button>
+                        <button class="submit-button mt-4" type="submit" value="Submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -306,6 +306,10 @@
         </div>
 
     </footer>
+
+<script src="webpage.js"></script>
+
+<?php include ("email.php");?>
 
 </body>
 

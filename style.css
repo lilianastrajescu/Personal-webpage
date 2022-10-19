@@ -45,16 +45,16 @@ body {
   padding: 8px 18px;
 }
 
-.contact-button:hover {
+.contact-button a:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: bold;
 }
-.contact-button {
+.contact-button a{
   color: white;
   text-decoration: none;
 }
 
-.contact-button:hover {
+.contact-button a:hover {
   color: white;
 }
 
@@ -250,6 +250,26 @@ body {
   outline: none;
   width: 100%;
 }
+
+.submit-button {
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  padding: 8px 18px;
+}
+
+.submit-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
+}
+.submit-button {
+  color: white;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  color: white;
+}
+
 
 footer {
   background-color: var(--secondary-color-background);
