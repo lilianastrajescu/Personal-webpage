@@ -49,12 +49,12 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: bold;
 }
-.contact-button a {
+.contact-button {
   color: white;
   text-decoration: none;
 }
 
-.contact-button a:hover {
+.contact-button:hover {
   color: white;
 }
 
@@ -326,8 +326,5 @@ footer {
  }
  .form-section{
   padding-top: 20px;
- }
- .pt-5{
-  padding-top: 10px !important;
  }
 }
