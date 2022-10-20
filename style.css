@@ -45,7 +45,7 @@ body {
   padding: 8px 18px;
 }
 
-.contact-button a:hover {
+.contact-button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: bold;
 }
@@ -58,12 +58,26 @@ body {
   color: white;
 }
 
-/*Section Skills*/
+/*BUTTON GO TOP*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* not overlap */
+  border: none; 
+  outline: none;
+  cursor: pointer;
+}
+#myBtn img:hover {
+width: 35px;
+height: 35px;
+}
 
+/*Section Skills*/
 .parent {
   height: 100px;
 }
-
 .child {
   border-top: 100px solid #ffffff;
   border-left: 49vw solid transparent;
@@ -269,6 +283,8 @@ body {
 .submit-button:hover {
   color: white;
 }
+
+/*Footer*/
 
 footer {
   background-color: var(--secondary-color-background);
