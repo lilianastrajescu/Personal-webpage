@@ -43,18 +43,12 @@ body {
   border: 1px solid var(--main-color);
   background-color: var(--main-color);
   padding: 8px 18px;
-}
-
-.contact-button:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  font-weight: bold;
-}
-.contact-button a {
   color: white;
   text-decoration: none;
 }
-
-.contact-button a:hover {
+.contact-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
   color: white;
 }
 
@@ -65,13 +59,13 @@ body {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* not overlap */
-  border: none; 
+  border: none;
   outline: none;
   cursor: pointer;
 }
 #myBtn img:hover {
-width: 35px;
-height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
 /*Section Skills*/
@@ -323,8 +317,8 @@ footer {
     font-size: 35px;
   }
   .skills-images {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
   .container-projects {
     padding-top: 10px;
