@@ -23,7 +23,7 @@ body {
 
 /*First section*/
 .main-section {
-  padding-top: 180px;
+  padding-top: 100px;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -284,6 +284,10 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .main-section {
+    padding-top: 80px;
+  }
+
   .main-section h1 {
     font-size: 30px;
   }
